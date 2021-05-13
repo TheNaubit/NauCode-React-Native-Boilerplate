@@ -9,6 +9,8 @@ import {
   PlaceholderLine,
   Fade
 } from "rn-placeholder";
+import {connect} from 'remx';
+import * as languagesStore from '../../stores/languages/languagesStore';
 
 class Tab2Screen extends React.Component {
   constructor(props)
@@ -42,21 +44,27 @@ class Tab2Screen extends React.Component {
   {
     return (
       <View style={styles.root}>
-        <Text style={styles.title}>Tab 2 Screen</Text>
-        <Text style={styles.subtitle}>{this.state.testLoadedData ? 'Showing Data!' : `Showing Data in ${this.state.countDown} seconds...`}</Text>
-        {this.state.testLoadedData ? (<>
-          <FastImage
-          style={{width: 300, height: 300,paddingBottom:10}}
-          source={{
-            uri: 'https://unsplash.it/400/400?image=1',
-            priority: FastImage.priority.normal,
-          }}
-          resizeMode={FastImage.resizeMode.contain}
-        />
-          <Text style={styles.text}>Demo load done!</Text></>
+        <Text style={styles.title}>Tab 2 Screen - {this.props.locale}</Text>
+        <Text style={styles.subtitle}>
+          {this.state.testLoadedData
+            ? 'Showing Data!'
+            : `Showing Data in ${this.state.countDown} seconds...`}
+        </Text>
+        {this.state.testLoadedData ? (
+          <>
+            <FastImage
+              style={{width: 300, height: 300, paddingBottom: 10}}
+              source={{
+                uri: 'https://unsplash.it/400/400?image=1',
+                priority: FastImage.priority.normal,
+              }}
+              resizeMode={FastImage.resizeMode.contain}
+            />
+            <Text style={styles.text}>Demo load done!</Text>
+          </>
         ) : (
           <Placeholder style={styles.placeholder} Animation={Fade}>
-            <PlaceholderMedia size={300} style={{paddingBottom:10}}/>
+            <PlaceholderMedia size={300} style={{paddingBottom: 10}} />
             <PlaceholderLine width={80} />
             <PlaceholderLine />
             <PlaceholderLine width={30} />
@@ -69,4 +77,10 @@ class Tab2Screen extends React.Component {
 
 Tab2Screen.options = navigationOptions;
 
-export default Tab2Screen;
+function mapStateToProps() {
+  return {
+    locale: languagesStore.getters.getLocale()
+  };
+}
+
+export default connect(mapStateToProps)(Tab2Screen);

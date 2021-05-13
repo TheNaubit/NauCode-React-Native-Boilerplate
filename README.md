@@ -1,6 +1,7 @@
 ## Features
 - The project is a demo of the dependencies used, so it is easier to start using this boilerplate!
 - Tested and used in real projects for Android and iOS devices
+- Support for internationalization (check this guide, dependencies are already installed: https://dev.to/merlier/how-to-internationalize-a-react-native-app-43fa)
 - Using (or at least I try) the latest stable versions of every dependency
 - Compatible and working with latest iOS version, latest XCode version and Apple M1 computers (with custom scripts and Pods to run the compilation without issues there)
 - Easy to install and setup for your project
@@ -12,6 +13,7 @@
 - Flipper Support
 - Fast Image system
 - Support for console.time(), console.timeLog()... (More info here: https://github.com/MaxGraey/react-native-console-time-polyfill#usage)
+- State management with Remx (I know, maybe you haven't heard about this, but trust me, give it a try, it is amazing and really easy!) (The app has already implemented an example but you can read a guide here: https://medium.com/wix-engineering/getting-started-with-remx-a5880563566f)
 
 ## Featured modules included
 - React Native Navigation (for navigation and improved performance) (more info here: https://wix.github.io/react-native-navigation/docs/before-you-start)

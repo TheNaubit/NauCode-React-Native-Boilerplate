@@ -15,6 +15,8 @@ import LoginScreen from './src/screens/Login';
 import defaultNavigationOptions from './src/navigation/navigationOptions';
 import { mainRoot, loginRoot } from './src/navigation/navigationRoots';
 
+//import * as i18n from './src/i18n';
+
 // Must be outside of any component LifeCycle (such as `componentDidMount`).
 PushNotification.configure({
   // (optional) Called when Token is generated (iOS and Android)
@@ -66,6 +68,8 @@ PushNotification.configure({
    */
   requestPermissions: Platform.OS === 'ios',
 });
+
+
 
 Navigation.registerComponent('HomeScreen', () => HomeScreen);
 Navigation.registerComponent('SecondScreen', () => SecondScreen);

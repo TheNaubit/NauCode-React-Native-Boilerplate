@@ -3,6 +3,8 @@ import {View, Text, Button} from 'react-native';
 import styles from './style';
 import navigationOptions from './navigationOptions';
 import {goToSecondScreen} from './functions';
+import {connect} from 'remx';
+import * as languagesStore from '../../stores/languages/languagesStore';
 
 class HomeScreen extends React.Component {
   constructor(props)
@@ -15,7 +17,7 @@ class HomeScreen extends React.Component {
     const {componentId} = this.props;
     return (
       <View style={styles.root}>
-        <Text style={styles.title}>Home Screen</Text>
+        <Text style={styles.title}>Home Screen - {this.props.locale}</Text>
         <Button
           title="Go to Second Screen"
           color="#710ce3"
@@ -28,4 +30,10 @@ class HomeScreen extends React.Component {
 
 HomeScreen.options = navigationOptions;
 
-export default HomeScreen;
+function mapStateToProps() {
+  return {
+    locale: languagesStore.getters.getLocale()
+  };
+}
+
+export default connect(mapStateToProps)(HomeScreen);
