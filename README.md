@@ -32,6 +32,7 @@
 - React Native Calendar (Lots of times you need to pick a date, now you can do it!) (Usage info here: https://github.com/Tinysymphony/react-native-calendar-select)
 - React Native Switch Pro (a beautiful and with good performance switch) (Usage info: https://github.com/poberwong/react-native-switch-pro#usage)
 - React Native WebP Format (display webp images as you would display normal images) (Usage info: https://www.npmjs.com/package/react-native-webp-format#usage)
+  
 ## Installation
 1. Clone this repo
 2. Run `yarn`

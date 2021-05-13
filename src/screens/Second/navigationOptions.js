@@ -7,7 +7,7 @@ const options = {
     background: {
       color: 'red',
     },
-  },
+  }
 };
 
 export default options;
