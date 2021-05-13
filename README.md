@@ -24,6 +24,8 @@
 - React Native Dropdown Alerts (I like that style of alerts) (Usage info here: https://github.com/testshallpass/react-native-dropdownalert#usage) (Showing global - not per screen - alerts is possible using Wix Navigation (the one we use) but not officially supported. Since I don't need it, I didn't try to implement it, but if you want, you could try following this: https://github.com/testshallpass/react-native-dropdownalert/issues/187)
 - React Native Placeholders (to load data in a beautiful way) (Usage info here: https://github.com/mfrachet/rn-placeholder)
 - React Native Dropdown Picker (I like this dropdown) (Usage info here: https://hossein-zare.github.io/react-native-dropdown-picker-website/docs/usage)
+- React Native Size Matters (Really useful for quickly support different devices) (Usage info here: https://github.com/nirsky/react-native-size-matters#scaling-functions)
+- React Native Calendar (Lots of times you need to pick a date, now you can do it!) (Usage info here: https://github.com/Tinysymphony/react-native-calendar-select)
 
 ## Installation
 1. Clone this repo
