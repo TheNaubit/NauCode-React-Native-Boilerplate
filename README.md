@@ -26,6 +26,7 @@
 - React Native Dropdown Picker (I like this dropdown) (Usage info here: https://hossein-zare.github.io/react-native-dropdown-picker-website/docs/usage)
 - React Native Size Matters (Really useful for quickly support different devices) (Usage info here: https://github.com/nirsky/react-native-size-matters#scaling-functions)
 - React Native Calendar (Lots of times you need to pick a date, now you can do it!) (Usage info here: https://github.com/Tinysymphony/react-native-calendar-select)
+- React Native Switch Pro (a beautiful and with good performance switch) (Usage info: https://github.com/poberwong/react-native-switch-pro#usage)
 
 ## Installation
 1. Clone this repo
