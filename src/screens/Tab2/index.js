@@ -6,7 +6,7 @@ import navigationOptions from './navigationOptions';
 const Tab2Screen = props => {
   return (
     <View style={styles.root}>
-      <Text>Tab 2 Screen</Text>
+      <Text style={styles.title}>Tab 2 Screen</Text>
     </View>
   );
 };

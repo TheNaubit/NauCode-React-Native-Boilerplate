@@ -4,11 +4,18 @@
 - Compatible and working with latest iOS version, latest XCode version and Apple M1 computers (with custom scripts and Pods to run the compilation without issues there)
 - Easy to install and setup for your project
 - Config system so you can enable and disable features without having to edit the project
+- Support for SVG images
+- ProGuard Support
+- Hermes Support (Android and iOS)
+- Flipper Support
 
 ## Featured modules included
 - React Native Navigation (for navigation and improved performance) (more info here: https://wix.github.io/react-native-navigation/docs/before-you-start)
 - React Native Bootsplash (for the Splash screen)
 - React Native Push Notifications (local and remote, iOS and Android) (more info about finishing the remote notifications setup and also Push Notifications settings here: https://github.com/zo0r/react-native-push-notification#readme)
+- React Native Vector Icons (to enable/disable fonts, check this link: https://github.com/oblador/react-native-vector-icons#option-with-cocoapods and https://github.com/oblador/react-native-vector-icons#option-with-gradle-recommended) (By default is enabled AntDesign icons only)
+- React Native SVG (to support SVG images!) (https://github.com/react-native-svg/react-native-svg)
+- React Native Typography (really interesting to have nice looking texts) (https://github.com/hectahertz/react-native-typography)
 
 ## Installation
 1. Clone this repo

@@ -7,11 +7,11 @@ import {goToSecondScreen} from './functions';
 const HomeScreen = props => {
   return (
     <View style={styles.root}>
-      <Text>Home Screen</Text>
+      <Text style={styles.title}>Home Screen</Text>
       <Button
         title="Go to Second Screen"
         color="#710ce3"
-        onPress={()=>goToSecondScreen(props.componentId)}
+        onPress={() => goToSecondScreen(props.componentId)}
       />
     </View>
   );

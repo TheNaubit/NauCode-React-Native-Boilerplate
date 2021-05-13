@@ -1,4 +1,5 @@
 import {StyleSheet} from 'react-native';
+import {iOSUIKit} from 'react-native-typography';
 
 const styles = StyleSheet.create({
   root: {
@@ -6,6 +7,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: 'whitesmoke',
+  },
+  testIcon: {
+    marginBottom: 10
+  },
+  title: {
+    ...iOSUIKit.title3
   },
 });
 

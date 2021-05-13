@@ -9,7 +9,7 @@
     "ios": "npx react-native run-ios",
     "start": "npx react-native start",
     "install-pods": "yarn && cd ./ios && npx pod-install && cd ..",
-    "install-pods-m1": "echo 'If you had not, install ffi for intel with: sudo arch -x86_64 gem install ffi before running this command!' && yarn && cd ./ios && arch -x86_64 npx pod-install && cd ..",
+    "install-pods-m1": "echo 'If you had not, install ffi for intel with: sudo arch -x86_64 gem install ffi before running this command!' && cd ./ios && arch -x86_64 npx pod-install && cd ..",
     "android-dev-device": "adb reverse tcp:8081 tcp:8081 && npx react-native run-android",
     "generate-apk": "cd android && ./gradlew assembleRelease && cd ..",
     "clean-android": "cd android && ./gradlew clean && cd ..",
@@ -26,7 +26,10 @@
     "react-native-push-notification": "7.3.1",
     "react-native-reanimated": "2.1.0",
     "react-native-safe-area-context": "3.2.0",
-    "react-native-screens": "3.2.0"
+    "react-native-screens": "3.2.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-typography": "^1.4.1",
+    "react-native-vector-icons": "^8.1.0"
   },
   "devDependencies": {
     "@babel/core": "7.14.2",
