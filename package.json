@@ -16,6 +16,7 @@
     "open-android-debug": "adb shell input keyevent 82"
   },
   "dependencies": {
+    "@react-native-community/blur": "^3.6.0",
     "@react-native-community/masked-view": "0.1.11",
     "@react-native-community/push-notification-ios": "^1.8.0",
     "react": "17.0.2",
