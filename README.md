@@ -19,6 +19,7 @@
 - React Native Typography (really interesting to have nice looking texts) (https://github.com/hectahertz/react-native-typography)
 - React Native Fast Image (cache and load faster images!) (Usage info here: https://github.com/DylanVann/react-native-fast-image#usage)
 - React Native Blur (I really like blur in my projects) (Usage info here: https://github.com/Kureev/react-native-blur#blurview) (If building for Android and iOS, use only BlurView)
+- React Native Offline (It is useful to listen for events like network changes) (Usage info here: https://github.com/rgommezz/react-native-offline#api)
 
 ## Installation
 1. Clone this repo
