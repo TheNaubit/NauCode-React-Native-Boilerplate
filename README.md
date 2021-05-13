@@ -6,10 +6,12 @@
 - Easy to install and setup for your project
 - Config system so you can enable and disable features without having to edit the project
 - Support for SVG images
+- Support for WebP images
 - ProGuard Support
 - Hermes Support (Android and iOS)
 - Flipper Support
-- Fast Image
+- Fast Image system
+- Support for console.time(), console.timeLog()... (More info here: https://github.com/MaxGraey/react-native-console-time-polyfill#usage)
 
 ## Featured modules included
 - React Native Navigation (for navigation and improved performance) (more info here: https://wix.github.io/react-native-navigation/docs/before-you-start)
@@ -27,7 +29,7 @@
 - React Native Size Matters (Really useful for quickly support different devices) (Usage info here: https://github.com/nirsky/react-native-size-matters#scaling-functions)
 - React Native Calendar (Lots of times you need to pick a date, now you can do it!) (Usage info here: https://github.com/Tinysymphony/react-native-calendar-select)
 - React Native Switch Pro (a beautiful and with good performance switch) (Usage info: https://github.com/poberwong/react-native-switch-pro#usage)
-
+- React Native WebP Format (display webp images as you would display normal images) (Usage info: https://www.npmjs.com/package/react-native-webp-format#usage)
 ## Installation
 1. Clone this repo
 2. Run `yarn`
