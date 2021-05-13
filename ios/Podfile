@@ -12,6 +12,8 @@ target 'NaucodeReactNativeBoilerplate' do
     :hermes_enabled => true
   )
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'NaucodeReactNativeBoilerplateTests' do
     inherit! :complete
     # Pods for testing
