@@ -8,6 +8,7 @@
 - ProGuard Support
 - Hermes Support (Android and iOS)
 - Flipper Support
+- Fast Image
 
 ## Featured modules included
 - React Native Navigation (for navigation and improved performance) (more info here: https://wix.github.io/react-native-navigation/docs/before-you-start)
@@ -16,6 +17,7 @@
 - React Native Vector Icons (to enable/disable fonts, check this link: https://github.com/oblador/react-native-vector-icons#option-with-cocoapods and https://github.com/oblador/react-native-vector-icons#option-with-gradle-recommended) (By default is enabled AntDesign icons only)
 - React Native SVG (to support SVG images!) (https://github.com/react-native-svg/react-native-svg)
 - React Native Typography (really interesting to have nice looking texts) (https://github.com/hectahertz/react-native-typography)
+- React Native Fast Image (cache and load faster images!) (Usage info here: https://github.com/DylanVann/react-native-fast-image#usage)
 
 ## Installation
 1. Clone this repo

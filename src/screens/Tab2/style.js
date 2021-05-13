@@ -10,6 +10,7 @@ const styles = StyleSheet.create({
   },
   title: {
     ...iOSUIKit.title3,
+    marginBottom: 30
   },
 });
 
