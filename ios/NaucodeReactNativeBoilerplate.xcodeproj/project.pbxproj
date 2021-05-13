@@ -39,6 +39,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = NaucodeReactNativeBoilerplate/main.m; sourceTree = "<group>"; };
 		1FB869FB357B14D4FB097F0A /* libPods-NaucodeReactNativeBoilerplate-NaucodeReactNativeBoilerplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NaucodeReactNativeBoilerplate-NaucodeReactNativeBoilerplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2856977E962A167E6BF8616E /* Pods-NaucodeReactNativeBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaucodeReactNativeBoilerplate.release.xcconfig"; path = "Target Support Files/Pods-NaucodeReactNativeBoilerplate/Pods-NaucodeReactNativeBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
+		3E944F4B264DB757004DE93D /* NaucodeReactNativeBoilerplate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = NaucodeReactNativeBoilerplate.entitlements; path = NaucodeReactNativeBoilerplate/NaucodeReactNativeBoilerplate.entitlements; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = NaucodeReactNativeBoilerplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82555C1DAD89BFAFBEE41FDC /* Pods-NaucodeReactNativeBoilerplate-NaucodeReactNativeBoilerplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaucodeReactNativeBoilerplate-NaucodeReactNativeBoilerplateTests.debug.xcconfig"; path = "Target Support Files/Pods-NaucodeReactNativeBoilerplate-NaucodeReactNativeBoilerplateTests/Pods-NaucodeReactNativeBoilerplate-NaucodeReactNativeBoilerplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A61ED034D9CE579E8AA2EE18 /* Pods-NaucodeReactNativeBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaucodeReactNativeBoilerplate.debug.xcconfig"; path = "Target Support Files/Pods-NaucodeReactNativeBoilerplate/Pods-NaucodeReactNativeBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +87,7 @@
 		13B07FAE1A68108700A75B9A /* NaucodeReactNativeBoilerplate */ = {
 			isa = PBXGroup;
 			children = (
+				3E944F4B264DB757004DE93D /* NaucodeReactNativeBoilerplate.entitlements */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -486,6 +488,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = NaucodeReactNativeBoilerplate/NaucodeReactNativeBoilerplate.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = NaucodeReactNativeBoilerplate/Info.plist;
@@ -512,6 +515,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = NaucodeReactNativeBoilerplate/NaucodeReactNativeBoilerplate.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = NaucodeReactNativeBoilerplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -563,7 +567,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "i386 arm64";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -628,7 +632,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "i386 arm64";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
