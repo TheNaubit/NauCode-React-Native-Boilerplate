@@ -10,7 +10,20 @@ const styles = StyleSheet.create({
   },
   title: {
     ...iOSUIKit.title3,
-    marginBottom: 30
+    marginBottom: 30,
+  },
+  subtitle: {
+    ...iOSUIKit.subhead,
+    marginBottom: 50,
+  },
+  placeholder: {
+    paddingHorizontal: 50,
+    marginTop: 30,
+  },
+  text: {
+    ...iOSUIKit.bodyEmphasized,
+    paddingHorizontal: 50,
+    marginTop: 30,
   },
 });
 

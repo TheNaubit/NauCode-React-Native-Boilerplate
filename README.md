@@ -1,4 +1,5 @@
 ## Features
+- The project is a demo of the dependencies used, so it is easier to start using this boilerplate!
 - Tested and used in real projects for Android and iOS devices
 - Using (or at least I try) the latest stable versions of every dependency
 - Compatible and working with latest iOS version, latest XCode version and Apple M1 computers (with custom scripts and Pods to run the compilation without issues there)
@@ -20,7 +21,8 @@
 - React Native Fast Image (cache and load faster images!) (Usage info here: https://github.com/DylanVann/react-native-fast-image#usage)
 - React Native Blur (I really like blur in my projects) (Usage info here: https://github.com/Kureev/react-native-blur#blurview) (If building for Android and iOS, use only BlurView)
 - React Native Offline (It is useful to listen for events like network changes) (Usage info here: https://github.com/rgommezz/react-native-offline#api)
-- React Native Dropdown Alerts (I like that style of alerts) (Usage info here: https://github.com/testshallpass/react-native-dropdownalert#usage)
+- React Native Dropdown Alerts (I like that style of alerts) (Usage info here: https://github.com/testshallpass/react-native-dropdownalert#usage) (Showing global - not per screen - alerts is possible using Wix Navigation (the one we use) but not officially supported. Since I don't need it, I didn't try to implement it, but if you want, you could try following this: https://github.com/testshallpass/react-native-dropdownalert/issues/187)
+- React Native Placeholders (to load data in a beautiful way) (Usage info here: https://github.com/mfrachet/rn-placeholder)
 
 ## Installation
 1. Clone this repo
