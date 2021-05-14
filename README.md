@@ -16,7 +16,22 @@
 - State management with Remx (I know, maybe you haven't heard about this, but trust me, give it a try, it is amazing and really easy!) (The app has already implemented an example but you can read a guide here: https://medium.com/wix-engineering/getting-started-with-remx-a5880563566f)
 - Localization and translations already implemented *with cache and pluralization* (you might want to check this (https://github.com/zoontek/react-native-localize) and this (https://github.com/fnando/i18n-js))
 
-## Featured modules included
+## Installation
+1. Clone this repo
+2. Run `yarn`
+3. If you want to run in iOS, install pods. To do that:
+  1. If you are using an Apple computer with M1 processor: `yarn run install-pods-m1`
+  2. In any other case (in an Apple computer): `yarn run install-pods`
+4. Done! (Check now the configuration section)
+
+## Configuration
+1. Run `npx react-native-rename <newName> -b <bundleIdentifier>`
+  - This will only change the bundle in Android, for iOS you will need to use XCode
+  - For more info, check this: https://www.npmjs.com/package/react-native-rename
+2. To configure the Splash screen, run this commnad: `yarn react-native generate-bootsplash --help`
+  - I recommend to check this link for more info: https://github.com/zoontek/react-native-bootsplash#assets-generation
+
+## Interesting modules and documentation to get the 100% of this boilerplate
 - React Native Navigation (for navigation and improved performance) (more info here: https://wix.github.io/react-native-navigation/docs/before-you-start)
 - React Native Bootsplash (for the Splash screen)
 - React Native Push Notifications (local and remote, iOS and Android) (more info about finishing the remote notifications setup and also Push Notifications settings here: https://github.com/zo0r/react-native-push-notification#readme)
@@ -38,18 +53,3 @@
 - React Native Extended Stylesheets (so we can have a lot of interesting styling options!) (Guide here: https://github.com/vitalets/react-native-extended-stylesheet)
 - react-native-app-info (so we can get the app version without having to manually change it in our config file) (Info about it here: https://github.com/Iragne/react-native-app-info)
 - Axios (who doesn't know Axios? Well, it is used to make requests to servers!)
-  
-## Installation
-1. Clone this repo
-2. Run `yarn`
-3. If you want to run in iOS, install pods. To do that:
-  1. If you are using an Apple computer with M1 processor: `yarn run install-pods-m1`
-  2. In any other case (in an Apple computer): `yarn run install-pods`
-4. Done! (Check now the configuration section)
-
-## Configuration
-1. Run `npx react-native-rename <newName> -b <bundleIdentifier>`
-  - This will only change the bundle in Android, for iOS you will need to use XCode
-  - For more info, check this: https://www.npmjs.com/package/react-native-rename
-2. To configure the Splash screen, run this commnad: `yarn react-native generate-bootsplash --help`
-  - I recommend to check this link for more info: https://github.com/zoontek/react-native-bootsplash#assets-generation
