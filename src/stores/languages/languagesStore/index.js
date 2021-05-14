@@ -1,8 +1,9 @@
 import * as remx from 'remx';
-//import * as i18n from '../../../i18n';
+//import I18n from 'i18n-js';
+import I18n, {clearTranslateCache} from '../../../i18n';
 
 const initialState = {
-  locale: 'a'//i18n.DEFAULT_LANGUAGE
+  locale: 'en'
 };
 
 const state = remx.state(initialState);
@@ -28,6 +29,11 @@ export const setters = remx.setters({
 
     setLocale(locale){
       state.locale = locale;
+      // It is not really necessary to use
+      // state to manage locale in I18N but
+      // I wanted to showcase store use
+      clearTranslateCache();
+      I18n.locale = locale;
     }
 
 });

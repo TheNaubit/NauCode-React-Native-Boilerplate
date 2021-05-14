@@ -14,6 +14,7 @@ import LoginScreen from './src/screens/Login';
 
 import defaultNavigationOptions from './src/navigation/navigationOptions';
 import { mainRoot, loginRoot } from './src/navigation/navigationRoots';
+//import {setI18nConfig, DEFAULT_LANGUAGE} from './src/i18n';
 
 //import * as i18n from './src/i18n';
 
@@ -69,7 +70,7 @@ PushNotification.configure({
   requestPermissions: Platform.OS === 'ios',
 });
 
-
+//setI18nConfig(DEFAULT_LANGUAGE);
 
 Navigation.registerComponent('HomeScreen', () => HomeScreen);
 Navigation.registerComponent('SecondScreen', () => SecondScreen);

@@ -1,7 +1,9 @@
+import {t} from '../../i18n';
+
 const options = {
   topBar: {
     title: {
-      text: 'Log In',
+      text: t('login_screen_title'),
     },
   },
   background: {

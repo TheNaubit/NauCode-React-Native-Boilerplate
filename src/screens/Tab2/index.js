@@ -11,6 +11,7 @@ import {
 } from "rn-placeholder";
 import {connect} from 'remx';
 import * as languagesStore from '../../stores/languages/languagesStore';
+import {t} from '../../i18n';
 
 class Tab2Screen extends React.Component {
   constructor(props)
@@ -44,11 +45,14 @@ class Tab2Screen extends React.Component {
   {
     return (
       <View style={styles.root}>
-        <Text style={styles.title}>Tab 2 Screen - {this.props.locale}</Text>
+        <Text style={styles.title}>{t('tab2_screen_title')}</Text>
         <Text style={styles.subtitle}>
           {this.state.testLoadedData
-            ? 'Showing Data!'
-            : `Showing Data in ${this.state.countDown} seconds...`}
+            ? t('showing_data_text')
+            : t('upcoming_showing_data_text', {
+                seconds: this.state.countDown,
+                count: this.state.countDown,
+              })}
         </Text>
         {this.state.testLoadedData ? (
           <>
@@ -60,7 +64,7 @@ class Tab2Screen extends React.Component {
               }}
               resizeMode={FastImage.resizeMode.contain}
             />
-            <Text style={styles.text}>Demo load done!</Text>
+            <Text style={styles.text}>{t('demo_loaded_text')}</Text>
           </>
         ) : (
           <Placeholder style={styles.placeholder} Animation={Fade}>

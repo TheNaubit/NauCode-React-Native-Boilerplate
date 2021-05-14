@@ -14,6 +14,7 @@
 - Fast Image system
 - Support for console.time(), console.timeLog()... (More info here: https://github.com/MaxGraey/react-native-console-time-polyfill#usage)
 - State management with Remx (I know, maybe you haven't heard about this, but trust me, give it a try, it is amazing and really easy!) (The app has already implemented an example but you can read a guide here: https://medium.com/wix-engineering/getting-started-with-remx-a5880563566f)
+- Localization and translations already implemented *with cache and pluralization* (you might want to check this (https://github.com/zoontek/react-native-localize) and this (https://github.com/fnando/i18n-js))
 
 ## Featured modules included
 - React Native Navigation (for navigation and improved performance) (more info here: https://wix.github.io/react-native-navigation/docs/before-you-start)

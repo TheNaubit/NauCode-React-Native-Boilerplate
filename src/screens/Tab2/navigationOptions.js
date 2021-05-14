@@ -1,12 +1,14 @@
+import {t} from '../../i18n';
+
 const options = {
   topBar: {
     title: {
-      text: 'Tab 2'
+      text: t('tab2_screen_title'),
     },
   },
   bottomTab: {
-    text: "Tab 2"
-  }
+    text: t('tab2_screen_title'),
+  },
 };
 
 export default options;

@@ -1,0 +1,20 @@
+export default {
+  switch_to_spanish: 'Cambiar a Español',
+  switch_to_english: 'Cambiar a Inglés',
+  login_screen_title: 'Pantalla de Inicio de Sesión',
+  home_screen_title: 'Pantalla de Inicio',
+  second_screen_title: 'Segunda Pantalla',
+  tab2_screen_title: 'Pantalla Tab 2',
+  login_button: 'Iniciar Sesión',
+  go_second_screen_button: 'Ir a la Segunda Pantalla',
+  open_alert_button: 'Abrir Alerta',
+  info_title_alert: 'Información',
+  info_message_alert: 'Este es un ejemplo de alerta informativa.',
+  showing_data_text: '¡Mostrando datos!',
+  upcoming_showing_data_text: {
+    one: 'Mostrando datos en %{seconds} segundo...',
+    other: 'Mostrando datos en %{seconds} segundos...',
+    zero: 'Mostrando datos en %{seconds} segundos...',
+  },
+  demo_loaded_text: '¡Carga de demostración completada!',
+};

@@ -382,6 +382,8 @@ PODS:
     - SDWebImageWebPCoder (~> 0.6.1)
   - RNGestureHandler (1.10.3):
     - React-Core
+  - RNLocalize (2.0.3):
+    - React-Core
   - RNReanimated (2.1.0):
     - DoubleConversion
     - FBLazyVector
@@ -489,6 +491,7 @@ DEPENDENCIES:
   - "RNCPushNotificationIOS (from `../node_modules/@react-native-community/push-notification-ios`)"
   - RNFastImage (from `../node_modules/react-native-fast-image`)
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
+  - RNLocalize (from `../node_modules/react-native-localize`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - RNSVG (from `../node_modules/react-native-svg`)
@@ -589,6 +592,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-fast-image"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
+  RNLocalize:
+    :path: "../node_modules/react-native-localize"
   RNReanimated:
     :path: "../node_modules/react-native-reanimated"
   RNScreens:
@@ -651,6 +656,7 @@ SPEC CHECKSUMS:
   RNCPushNotificationIOS: 61a7c72bd1ebad3568025957d001e0f0e7b32191
   RNFastImage: d4870d58f5936111c56218dbd7fcfc18e65b58ff
   RNGestureHandler: a479ebd5ed4221a810967000735517df0d2db211
+  RNLocalize: 99e59cad311ca1b6872b1764514009416ccba03d
   RNReanimated: b8c8004b43446e3c2709fe64b2b41072f87428ad
   RNScreens: c277bfc4b5bb7c2fe977d19635df6f974f95dfd6
   RNSVG: 551acb6562324b1d52a4e0758f7ca0ec234e278f
