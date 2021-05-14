@@ -10,6 +10,7 @@ const selectedConf = DEV_MODE ? configDev : configPro;
 export default config = {
   showLogs: false,
   showWarns: false,
+  enableReactotron: false,
   useRemoteNotifications: false,
   ...selectedConf,
 };

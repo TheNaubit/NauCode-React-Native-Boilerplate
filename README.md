@@ -10,7 +10,7 @@
 - Support for WebP images
 - ProGuard Support
 - Hermes Support (Android and iOS)
-- Flipper Support
+- Flipper and Reactotron Support
 - Fast Image system
 - Support for console.time(), console.timeLog()... (More info here: https://github.com/MaxGraey/react-native-console-time-polyfill#usage)
 - State management with Remx (I know, maybe you haven't heard about this, but trust me, give it a try, it is amazing and really easy!) (The app has already implemented an example but you can read a guide here: https://medium.com/wix-engineering/getting-started-with-remx-a5880563566f)
@@ -33,6 +33,8 @@
 - React Native Calendar (Lots of times you need to pick a date, now you can do it!) (Usage info here: https://github.com/Tinysymphony/react-native-calendar-select)
 - React Native Switch Pro (a beautiful and with good performance switch) (Usage info: https://github.com/poberwong/react-native-switch-pro#usage)
 - React Native WebP Format (display webp images as you would display normal images) (Usage info: https://www.npmjs.com/package/react-native-webp-format#usage)
+- React Native Async Storage
+- Reactotron (an amazing tool for debugging, with good synergy with Flipper) (More info here: https://github.com/infinitered/reactotron/blob/master/docs/quick-start-react-native.md)
   
 ## Installation
 1. Clone this repo

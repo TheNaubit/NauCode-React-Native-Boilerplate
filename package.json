@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint .",
-    "android": "npx react-native run-android",
+    "android": "adb reverse tcp:9090 tcp:9090 && npx react-native run-android",
     "ios": "npx react-native run-ios",
     "start": "npx react-native start",
     "install-pods": "yarn && cd ./ios && npx pod-install && cd ..",
@@ -16,6 +16,7 @@
     "open-android-debug": "adb shell input keyevent 82"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.4",
     "@react-native-community/blur": "3.6.0",
     "@react-native-community/masked-view": "0.1.11",
     "@react-native-community/netinfo": "6.0.0",
@@ -44,6 +45,7 @@
     "react-native-typography": "1.4.1",
     "react-native-vector-icons": "8.1.0",
     "react-native-webp-format": "1.1.2",
+    "reactotron-react-native": "^5.0.0",
     "remx": "^4.0.108-rc.4",
     "rn-placeholder": "3.0.3"
   },

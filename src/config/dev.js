@@ -1,4 +1,5 @@
 export default config = {
   showLogs: true,
-  showWarns: true
+  showWarns: true,
+  enableReactotron: true,
 };
