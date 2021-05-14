@@ -35,6 +35,7 @@
 - React Native WebP Format (display webp images as you would display normal images) (Usage info: https://www.npmjs.com/package/react-native-webp-format#usage)
 - React Native Async Storage
 - Reactotron (an amazing tool for debugging, with good synergy with Flipper) (More info here: https://github.com/infinitered/reactotron/blob/master/docs/quick-start-react-native.md)
+- React Native Extended Stylesheets (so we can have a lot of interesting styling options!) (Guide here: https://github.com/vitalets/react-native-extended-stylesheet)
   
 ## Installation
 1. Clone this repo

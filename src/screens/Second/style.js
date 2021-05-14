@@ -1,7 +1,7 @@
-import {StyleSheet} from 'react-native';
+import EStyleSheet from 'react-native-extended-stylesheet';
 import {iOSUIKit} from 'react-native-typography';
 
-const styles = StyleSheet.create({
+const styles = EStyleSheet.create({
   root: {
     flex: 1,
     alignItems: 'center',
@@ -9,10 +9,10 @@ const styles = StyleSheet.create({
     backgroundColor: 'whitesmoke',
   },
   testIcon: {
-    marginBottom: 10
+    marginBottom: 10,
   },
   title: {
-    ...iOSUIKit.title3
+    ...iOSUIKit.title3,
   },
 });
 

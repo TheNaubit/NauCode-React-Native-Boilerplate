@@ -9,6 +9,7 @@ import Config from './src/config';
 if (Config.enableReactotron) {
   import('./ReactotronConfig').then(() => {if(Config.showLogs) console.log('Reactotron Configured')});
 }
+import EStyleSheet from 'react-native-extended-stylesheet';
 
 import HomeScreen from './src/screens/Home';
 import SecondScreen from './src/screens/Second';
@@ -81,6 +82,12 @@ Navigation.registerComponent('Tab2Screen', () => Tab2Screen);
 Navigation.registerComponent('LoginScreen', () => LoginScreen);
 
 Navigation.setDefaultOptions(defaultNavigationOptions);
+
+EStyleSheet.build({
+  // always call EStyleSheet.build() even if you don't use global variables!
+  // This is a sample var not used anywhere
+  $textColor: '#0275d8',
+});
 
 Navigation.events().registerAppLaunchedListener(async () => {
   Navigation.setRoot(loginRoot);

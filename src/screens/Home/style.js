@@ -1,7 +1,7 @@
-import { StyleSheet } from 'react-native';
+import EStyleSheet from 'react-native-extended-stylesheet';
 import {iOSUIKit} from 'react-native-typography';
 
-const styles = StyleSheet.create({
+const styles = EStyleSheet.create({
   root: {
     flex: 1,
     alignItems: 'center',
