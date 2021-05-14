@@ -1,5 +1,5 @@
 ## Features
-- The project is a demo of the dependencies used, so it is easier to start using this boilerplate!
+- *The project is a demo of the dependencies used, so it is easier to start using this boilerplate!*
 - Tested and used in real projects for Android and iOS devices
 - Support for internationalization (check this guide, dependencies are already installed: https://dev.to/merlier/how-to-internationalize-a-react-native-app-43fa)
 - Using (or at least I try) the latest stable versions of every dependency
@@ -36,6 +36,8 @@
 - React Native Async Storage
 - Reactotron (an amazing tool for debugging, with good synergy with Flipper) (More info here: https://github.com/infinitered/reactotron/blob/master/docs/quick-start-react-native.md)
 - React Native Extended Stylesheets (so we can have a lot of interesting styling options!) (Guide here: https://github.com/vitalets/react-native-extended-stylesheet)
+- react-native-app-info (so we can get the app version without having to manually change it in our config file) (Info about it here: https://github.com/Iragne/react-native-app-info)
+- Axios (who doesn't know Axios? Well, it is used to make requests to servers!)
   
 ## Installation
 1. Clone this repo
