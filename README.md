@@ -1,7 +1,7 @@
 ## Features
 - *The project is a demo of the dependencies used, so it is easier to start using this boilerplate!*
 - Tested and used in real projects for Android and iOS devices
-- Support for internationalization (check this guide, dependencies are already installed: https://dev.to/merlier/how-to-internationalize-a-react-native-app-43fa)
+- Support for internationalization (check the boilerplate, I made it fully internationalized already)
 - Using (or at least I try) the latest stable versions of every dependency
 - Compatible and working with latest iOS version, latest XCode version and Apple M1 computers (with custom scripts and Pods to run the compilation without issues there)
 - Easy to install and setup for your project
